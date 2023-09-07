@@ -1,0 +1,101 @@
+main {
+    display: flex;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 40px;
+    width: fit-content;
+    padding: 0 20px;
+    height: 60px;
+    background-color: #1c8ed0;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+
+main ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    padding-bottom: 5px;
+    margin: 0;
+}
+
+main input[type="text"] {
+    font-size: 20px;
+    padding: 0 15px;
+    height: 40px;
+    width: 90%;
+    background-color: #fff;
+    border-radius: 20px;
+    display: flex;
+    color: #000;
+}
+
+main .check {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    padding: 20px;
+}
+
+main .check input {
+    margin-right: 15px;
+}
+
+main #share a {
+    color: #7155e4;
+    text-decoration: underline;
+}
+
+main .name {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+main .buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    padding: 20px;
+    gap: 50px;
+}
+
+main .buttons a {
+    font-size: 20px;
+    padding: 0 15px;
+    height: 40px;
+    background-color: var(--c-a-links);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+    user-select: none;
+}
+
+main .buttons input {
+    font-size: 20px;
+    padding: 0 15px;
+    height: 40px;
+    background-color: var(--c-a-links);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+    user-select: none;
+    color: #fff;
+}
+
+main .buttons a:hover {
+    background-color: var(--c-b-links);
+}

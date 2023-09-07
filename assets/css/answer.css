@@ -1,0 +1,42 @@
+main {
+    display: flex;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 40px;
+    width: fit-content;
+    padding: 0 20px;
+    height: 60px;
+    background-color: #1c8ed0;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.answers {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+table {
+    width: 100%;
+    max-width: 800px;
+    margin: 20px;
+    padding: 10px;
+}
+
+td {
+    text-align: center;
+}
+
+table .best {
+    background-color: #1c8ed0;
+    color: white;
+    border-radius: 20px;
+}

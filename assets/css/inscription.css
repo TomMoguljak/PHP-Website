@@ -1,0 +1,86 @@
+main {
+    display: flex;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 40px;
+    padding: 0 20px;
+    height: 60px;
+    background-color: #1c8ed0;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    width: fit-content;
+}
+
+main input[type="text"],
+main input[type="email"],
+main input[type="password"] {
+    font-size: 20px;
+    padding: 0 15px;
+    height: 40px;
+    width: 550px;
+    background-color: #fff;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    color: #000;
+}
+
+main .login a {
+    color: #7155e4;
+    text-decoration: underline;
+}
+
+main .check {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    padding: 20px;
+}
+
+main .check input {
+    margin-right: 15px;
+}
+
+main .button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    padding: 20px;
+}
+
+main .button input {
+    font-size: 20px;
+    padding: 0 15px;
+    height: 40px;
+    background-color: var(--c-a-links);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+    user-select: none;
+    color: #fff;
+}
+
+main .button input:hover {
+    background-color: var(--c-b-links);
+}
+
+main .button input:disabled {
+    background-color: gray;
+    cursor: default;
+}

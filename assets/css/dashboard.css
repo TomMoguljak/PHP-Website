@@ -1,0 +1,41 @@
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 1;
+}
+
+h1 {
+    display: flex;
+    font-size: 40px;
+    padding: 0 20px;
+    height: 60px;
+    background-color: #1c8ed0;
+    border-radius: 20px;
+    align-items: center;
+}
+
+main .list {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    gap: 50px;
+    padding-bottom: 40px;
+}
+
+main .list div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    background-color: #41494d;
+    border-radius: 20px;
+    line-break: auto;
+    padding: 15px;
+}
+
+main .list div p {
+    overflow-wrap: anywhere;
+}
